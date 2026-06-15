@@ -1,0 +1,1 @@
+import java.util.*; class QuotientRemainder{public static void main(String[] args){Scanner in=new Scanner(System.in); int a=in.nextInt(),b=in.nextInt(); System.out.println("The Quotient is "+(a/b)+" and Reminder is "+(a%b)+" of two number "+a+" and "+b);}}

@@ -1,0 +1,1 @@
+import java.util.*; class DistanceConvert{public static void main(String[] args){Scanner in=new Scanner(System.in); double feet=in.nextDouble(); double yards=feet/3; double miles=yards/1760; System.out.println("The distance in yards is "+yards+" while the distance in miles is "+miles);}}
