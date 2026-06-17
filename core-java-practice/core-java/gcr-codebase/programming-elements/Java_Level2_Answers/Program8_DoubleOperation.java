@@ -1,0 +1,1 @@
+import java.util.*; class DoubleOperation{public static void main(String[] args){Scanner in=new Scanner(System.in); double a=in.nextDouble(),b=in.nextDouble(),c=in.nextDouble(); System.out.println("The results of Double Operations are "+(a+b*c)+", "+(a*b+c)+", "+(c+a/b)+", and "+(a%b+c));}}
