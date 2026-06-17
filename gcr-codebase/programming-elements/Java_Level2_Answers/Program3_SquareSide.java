@@ -1,1 +1,0 @@
-import java.util.*; class SquareSide{public static void main(String[] args){Scanner in=new Scanner(System.in); double p=in.nextDouble(); System.out.println("The length of the side is "+(p/4)+" whose perimeter is "+p);}}
