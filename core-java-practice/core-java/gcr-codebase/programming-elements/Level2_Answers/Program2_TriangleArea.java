@@ -1,1 +1,20 @@
-import java.util.*; class TriangleArea{public static void main(String[] args){Scanner in=new Scanner(System.in); double b=in.nextDouble(),h=in.nextDouble(); double areaCm=0.5*b*h; double areaIn=areaCm/(2.54*2.54); System.out.println("The Area of the triangle in sq in is "+areaIn+" and sq cm is "+areaCm);}}
+import java.util.*;
+
+public class Program2_TriangleArea {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.print("Enter the base: ");
+        double base = in.nextDouble();
+
+        System.out.print("Enter the height: ");
+        double height = in.nextDouble();
+
+        double area = 0.5 * base * height;
+
+        System.out.println("Area = " + area);
+
+        in.close();
+    }
+}

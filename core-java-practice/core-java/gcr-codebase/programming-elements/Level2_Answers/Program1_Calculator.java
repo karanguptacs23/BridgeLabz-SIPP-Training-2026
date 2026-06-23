@@ -1,1 +1,0 @@
-import java.util.*; class Calculator{public static void main(String[] args){Scanner in=new Scanner(System.in); double n1=in.nextDouble(),n2=in.nextDouble(); System.out.println("Addition="+(n1+n2)+", Subtraction="+(n1-n2)+", Multiplication="+(n1*n2)+", Division="+(n1/n2));}}

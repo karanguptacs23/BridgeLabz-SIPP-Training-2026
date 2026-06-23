@@ -1,4 +1,4 @@
-
+package Level1_Answers;
 class AveragePCM {
     public static void main(String[] args) {
         int maths=94, physics=95, chemistry=96;
